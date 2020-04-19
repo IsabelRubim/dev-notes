@@ -16,6 +16,8 @@ Atualmente: 0 TILs
 
 # Front-end
 
+* [Arquitetura Flux](../master/frontEnd/ArquiteturaFlux.md)
+
 # Eletrônicos
 
 # Git 
