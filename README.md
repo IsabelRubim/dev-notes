@@ -18,6 +18,10 @@ Atualmente: 1 TILs
 
 * [Arquitetura Flux](../master/frontEnd/ArquiteturaFlux.md)
 
+## Redux
+
+* [Redux em um projeto React](../master/frontEnd/ReduxEmUmProjReact.md)
+
 # Eletrônicos
 
 # Git 
@@ -25,3 +29,9 @@ Atualmente: 1 TILs
 # Microsoft Azure
 
 # Segurança
+
+# Licença
+
+© 2020 - Isabel Rubim
+
+Este repositório está licenciado sob a licença MIT. Consulte a LICENÇA para obter detalhes.
