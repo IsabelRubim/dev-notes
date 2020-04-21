@@ -101,3 +101,41 @@ export default connect((state) => ({
 }))(Header);
 
 ```
+
+## Immer
+
+Uma ferramenta para facilitar a lidar com objetos e arrays que são imutáveis, 
+como o estado no redux.
+
+`yarn add immer`
+
+Exemplo de uso dentro do reducer:
+
+```
+switch (action.type) {
+  case '@nomeDoType/ADD':
+    return produce(state, (draft) => {
+      const index = draft.findIndex((i) => i.id === action.obj.id);
+
+      if (index >= 0) {
+        draft[index].amount += 1;
+      } else {
+        draft.push({
+          ...action.obj,
+          amount: 1,
+        });
+      }
+    });
+    default:
+      return state;
+  }
+}
+```
+
+## bindActionCreators()
+
+**Converte actions do redux em props do meu componente.**
+
+:collision: A única coisa que meu componente deve fazer é discaparar uma ação.
+:collision: :collision: O redux lida com as validações dentro do reducer.
+
