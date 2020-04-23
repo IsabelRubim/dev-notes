@@ -2,10 +2,8 @@
 
 ## Configurando o Redux em um projeto react
 
-```
-yarn add redux react-redux
+``yarn add redux react-redux``
 
-```
 Todos os aquivos relacionado ao redux ficam em uma pasta dentro da src chamada store.
 
 Função dispatch é um método do redux no qual ele dispara.
@@ -107,7 +105,7 @@ export default connect((state) => ({
 Uma ferramenta para facilitar a lidar com objetos e arrays que são imutáveis, 
 como o estado no redux.
 
-`yarn add immer`
+``yarn add immer``
 
 Exemplo de uso dentro do reducer:
 
@@ -138,4 +136,49 @@ switch (action.type) {
 
 :collision: A única coisa que meu componente deve fazer é discaparar uma ação.
 :collision: :collision: O redux lida com as validações dentro do reducer.
+
+## Reactotron + Redux
+
+Ajudar a debugar o estado do redux
+
+``yarn add reactotron-react-js reactotron-redux``
+
+Os snapshots é útil para aplicações que o estado do redux deve ter uma action pelo menos.
+
+
+## mapStateProps()
+
+Melhor lugar para realizar os calculos que vão ser mostrados em tela. No qual, está baseado em
+uma informação que está no estado do redux, logo dentro do reducer. 
+
+## Redux Saga
+
+Aplica o conceito de middlewares dentro do redux, quando dispara uma action o middleware entra em ação,
+como se fosse um pipe para entre a actions e o reducer.
+
+``yarn add redux-saga``
+
+## function*
+
+Asterisco na function é uma funcionalidade do JavaScript que se chama generator, seria como uma async, só que mais 
+"potente" que o async await.
+
+Ela que vai lidar com as chamadas api, seria um passo a mais entre a action e o reducer.
+
+**yield é o await do generator**
+
+### Métodos
+
+* call() -> responsável para lidar com métodos assíncronos
+* put() -> dispara uma action
+* all() -> cadastra listener / junta todos os sagas
+* takeLatest -> espera a chamada na api, caso o usuário faça muitas chamadas
+
+## Reactotron + Saga
+
+Ajuda a entender melhor o fluxo da aplicação
+
+``yarn add reactotron-redux-saga``
+
+Ao trabalhar com saga, dividimos as actions em duas, são elas: request (ouvida pelo saga) e success.
 
