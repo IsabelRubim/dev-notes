@@ -182,3 +182,10 @@ Ajuda a entender melhor o fluxo da aplicação
 
 Ao trabalhar com saga, dividimos as actions em duas, são elas: request (ouvida pelo saga) e success.
 
+## Hooks com Redux
+
+**dispatch(action)**
+
+* Coloca-se dispatch toda vez que chama uma action no redux.
+* Toda vez que precisar acessr o estado do redux usa-se o **useSelector()**
+
