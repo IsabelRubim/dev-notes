@@ -4,7 +4,7 @@
 
 Exemplo:
 
-```
+```javascript
 const [o estado em si, uma função que serve para atualizar o estado] = useState(Valor inicial para o estado);
 
 ```
@@ -15,13 +15,14 @@ const [o estado em si, uma função que serve para atualizar o estado] = useStat
 
 Exemplo:
 
-```
-useEffect(() => 
-  função é executada toda vez que a variável (no array de dependências) monitorada é alterada, 
+```javascript
+useEffect(() =>
+  função é executada toda vez que a variável (no array de dependências) monitorada é alterada,
 [array de dependências]);
 
 ```
-* **useMemo()** - indicado quando se faz um tipo de cálculo mais complexo no componente, 
+
+* **useMemo()** - indicado quando se faz um tipo de cálculo mais complexo no componente,
 retornando um valor único.
 
 * **useCallback()** - muito útil, pois evita o uso de memória desnecessário, porque ela só vai

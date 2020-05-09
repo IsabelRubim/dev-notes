@@ -1,11 +1,11 @@
 # Arquitetura Flux
 
-## O que é Redux?
+## O que é Redux
 
 * Biblioteca que implementa arquitetura flux
 * Controle de estados globais (não tem dono)
 
-## Quando utilizar o Redux?
+## Quando utilizar o Redux
 
 * Meu estado tem mais de um "dono"?
 * Meu estado é manipulado por mais componentes?
@@ -23,7 +23,7 @@ Exemplos: carrinho de compras, dados do usuário, player de música, etc;
 
 :warning: Nem toda aplicação precisa de Redux, inicie sem ele e sinta a necessidade depois.
 
-### Dentro do reducer:
+### Dentro do reducer
 
 * Ouvir as ações
 * Manipular os estados da maneira que for necessário
