@@ -4,12 +4,13 @@ Inspirado no [repositório](https://github.com/charliegerard/dev-notes) by @char
 
 Este repositório é uma coleção de pequenas coisas que eu aprendo sobre diferentes linguagens, estruturas e tecnologias. Consiste em pequenos documentos resumindo conceitos ou dicas que eu gostaria de compartilhar. O objetivo é escrever algo novo todos os dias ou sempre que possível.
 
-Atualmente: 7 TILs
+Atualmente: 8 TILs
 
 ## Categorias
 
 * [Front-end](#front-end)
 * [Back-end](#back-end)
+* [Design de interação](#design-de-interação)
 
 ## Front-end
 
@@ -24,6 +25,10 @@ Atualmente: 7 TILs
 ## Back-end
 
 * [Testes](../master/backEnd/Testes.md)
+
+## Design de interação
+
+* [Fundamentos](../master/designDeInteração/fundamentos.md)
 
 ## Licença
 
