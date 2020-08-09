@@ -11,6 +11,7 @@ Atualmente: 9 TILs
 * [Front-end](#front-end)
 * [Back-end](#back-end)
 * [Design de interação](#design-de-interação)
+* [Sistema de design](#sistema-de-design)
 
 ## Front-end
 
